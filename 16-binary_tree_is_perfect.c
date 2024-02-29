@@ -5,14 +5,14 @@ const binary_tree_t *get_leaf(const binary_tree_t *tree);
 int is_perfect_recursive(const binary_tree_t *tree,
 							size_t leaf_depth, size_t level);
 unsigned char is_leaf(const binary_tree_t *node);
-size_t depth(const binary_tree_t *tree);							
+size_t depth(const binary_tree_t *tree);
 int binary_tree_is_perfect(const binary_tree_t *tree);
 
 /**
  * is_leaf - This Checks if a node is a leaf of a binary tree.
  * @node: is a pointer to the node to check.
  *
- * Returns: If the node is a leaf, return 1
+ * Return: If the node is a leaf, return 1
  *			 otherwise, 0.
  */
 unsigned char is_leaf(const binary_tree_t *node)
@@ -25,7 +25,7 @@ unsigned char is_leaf(const binary_tree_t *node)
  *         node in a binary tree.
  * @tree: Is a pointer to the node to measure the depth of.
  *
- * Returns: Depth of node.
+ * Return: Depth of node.
  */
 size_t depth(const binary_tree_t *tree)
 {
@@ -36,7 +36,7 @@ size_t depth(const binary_tree_t *tree)
  * get_leaf - To return a leaf of a binary tree.
  * @tree: Is a pointer to the root node of the tree to find a leaf in.
  *
- * Returns: A pointer to the first encountered leaf.
+ * Return: A pointer to the first encountered leaf.
  */
 const binary_tree_t *get_leaf(const binary_tree_t *tree)
 {
@@ -51,8 +51,8 @@ const binary_tree_t *get_leaf(const binary_tree_t *tree)
  * @leaf_depth: Is the depth of one leaf in the binary tree.
  * @level: The level of the current node.
  *
- * Returns: If the tree is perfect, rertun 1
- * 			otherwise 0.
+ * Return: If the tree is perfect, rertun 1
+ *			otherwise 0.
  */
 int is_perfect_recursive(const binary_tree_t *tree,
 		size_t leaf_depth, size_t level)
@@ -69,7 +69,7 @@ int is_perfect_recursive(const binary_tree_t *tree,
  * binary_tree_is_perfect - A function that checks if a binary tree is perfect
  * @tree: Is a pointer to the root node of the tree to check
  *
- * Returns: If tree is NULL, your function must return 0 
+ * Return: If tree is NULL, your function must return 0
  *         Otherwise, 1.
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)

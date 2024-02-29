@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_inorder - A function that goes through a binary tree
- *						 using in-order traversal. 
+ *						 using in-order traversal.
  * @tree: Is a pointer to the root node of the tree to traverse.
  * @func: Is a pointer to a function to call for each node.
  */
